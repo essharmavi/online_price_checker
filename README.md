@@ -13,9 +13,9 @@ Product name
 Short description (max ~150 words)
 Estimated price in INR
 ⚙️ Clean Streamlit UI for easy interaction
-⚙️ Tech Stack
 
-### Component	Technology
+
+### ⚙️ Tech Stack
 
 **Language Model**	OpenAI GPT-4.1, Groq Qwen, LLaMA 3
 
