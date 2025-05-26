@@ -1,30 +1,27 @@
-# Online Price Checker – Product Info & Price Estimator with LLMs
+# 🛍️ ItemInsight – AI-Powered Product Info & Price Estimator
 
-An AI-powered tool that delivers concise product information and estimated market pricing. Whether you're researching gadgets, services, or memberships, just enter the name — the app returns a clean, structured summary including the name, details, and estimated price in Indian Rupees (INR).
+**ItemInsight** is a lightweight AI application that delivers concise product summaries and real-time estimated prices in Indian Rupees (INR) using cutting-edge Large Language Models (LLMs). Built with **LangChain**, **Streamlit**, and **OpenAI/Groq**, it's perfect for quick product research and market value estimation.
 
-### ✨ Features
+---
 
-🔍 Takes any product name as input
+## 📌 Features
 
-🧠 Uses LLMs (GPT-4.1, Qwen, LLaMA 3) via LangChain
+- ✅ Accepts any product name input
+- 🧠 Utilizes top-tier LLMs (GPT-4.1, Qwen, LLaMA 3) for intelligent responses
+- 📦 Returns structured JSON with:
+  - **Product Name**
+  - **Short Description** (≤150 words)
+  - **Estimated Price** in **INR**
+- ⚙️ Clean Streamlit UI for interactive exploration
+- 🔐 Supports multiple API providers via `.env` config
 
-📦 Returns structured JSON with:
-Product name
-Short description (max ~150 words)
-Estimated price in INR
-⚙️ Clean Streamlit UI for easy interaction
+---
 
+## 🖼️ Sample Output
 
-### ⚙️ Tech Stack
-
-**Language Model**	OpenAI GPT-4.1, Groq Qwen, LLaMA 3
-
-**Interface**	Streamlit
-
-**Backend Logic**	LangChain
-
-**Output Parsing**	Pydantic + LangChain JSON Parser
-
-**Prompt System***	JSON-based PromptTemplate
-
-**Environment**	Python 3.12 + dotenv
+```json
+{
+  "name": "MacBook Air M2 (2023)",
+  "details": "A lightweight, high-performance laptop powered by Apple’s M2 chip. Offers long battery life, a Retina display, and smooth macOS experience. Suitable for students, creators, and professionals.",
+  "price": 115000
+}
