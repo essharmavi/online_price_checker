@@ -1,8 +1,8 @@
-#Online Price Checker – Product Info & Price Estimator with LLMs
+# Online Price Checker – Product Info & Price Estimator with LLMs
 
 An AI-powered tool that delivers concise product information and estimated market pricing. Whether you're researching gadgets, services, or memberships, just enter the name — the app returns a clean, structured summary including the name, details, and estimated price in Indian Rupees (INR).
 
-###✨ Features
+### ✨ Features
 
 🔍 Takes any product name as input
 🧠 Uses LLMs (GPT-4.1, Qwen, LLaMA 3) via LangChain
