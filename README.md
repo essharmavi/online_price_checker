@@ -18,8 +18,13 @@ Estimated price in INR
 ### Component	Technology
 
 **Language Model**	OpenAI GPT-4.1, Groq Qwen, LLaMA 3
+
 **Interface**	Streamlit
+
 **Backend Logic**	LangChain
+
 **Output Parsing**	Pydantic + LangChain JSON Parser
+
 **Prompt System***	JSON-based PromptTemplate
+
 **Environment**	Python 3.12 + dotenv
