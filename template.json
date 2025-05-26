@@ -1,0 +1,4 @@
+{
+  "input_variables": ["product_name", "format_instructions"],
+  "template": "Give me the following product info about {product_name}, not more than in 150 words and in JSON format: {format_instructions}. While generating price of a product, use Indian Rupee as currency and make sure price is an integer (INR). Also, give me the product price idea by today's market value."
+}
